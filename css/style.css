@@ -19,8 +19,14 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     background-color: white;
-    border-bottom: 2px #cccccc;
+    border-bottom: 1px solid #cccc;
     margin-bottom: 30px;
+    margin: 0 auto;
+}
+
+
+.wrapper {
+    width: 960px;
     margin: 0 auto;
 }
 
@@ -37,22 +43,25 @@ nav {
     width: 300px;
     float: right;
     margin-top: 25px;
-    text-align: center;
+    text-align: right;
 }
 
 nav ul li {
-
     display: inline;
+
+}
+
+nav a {
+    color: #333333;
+    font-size: 15px;
+    padding: 5px 15px;
+    border-right: 1px solid #cccc;
+    text-decoration: none;
 }
     
-nav a {
-
-}
-
-
-.wrapper {
-    width: 960px;
-    margin: 0 auto;
+nav ul li:last-child a {
+    border-right: none;
+    padding-right: none;
 }
 
 .clearfix {
@@ -60,24 +69,61 @@ nav a {
     clear: both;
 }
 
-#left, #right {
-    background color: white;
+#main {
+    background-color: white;
     color: black;
-    border: 2px solid ###ccc;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 25px;
+}
+
+h2 {
+    font-size: 30px;
+    padding-bottom: 22px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 22px solid #666666;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.inline-image {
+    float:left;
+    margin: 0px 15px 15px 0;
+    border: 1px solid #777777;
+}
+
+.clearfix {
+    display: block;
+    clear: both;
+}
+
+#main {
+    background: white;
     padding: 25px;
+    border: 1px solid #cccc;
+    
+
 }
 
-#left {
-    width: 650px;
-    float: left;
+#main h2 {
+    font-size: 24px;
+    padding: 15px 0;
+    margin-bottom: 20px;
+border-bottom: 1px solid #cccccc;
 }
 
-#right {
-    width: 270px;
-    float: right;
-}
-
-.icon {
-    height: 30px;
-    width: 30px;
+footer {
+    Background-color: #666666;
+    color: #cccccc;
+    Border-top: 5px solid #4aaaa5;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 40px; 
 }
