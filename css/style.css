@@ -73,8 +73,10 @@ nav ul li:last-child a {
     background-color: white;
     color: black;
     padding-top: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
     margin-top: 25px;
+    margin-bottom: 25px;
+    overflow: scroll;
 }
 
 h2 {
@@ -88,6 +90,45 @@ p {
     margin-bottom: 22px solid #666666;
 }
 
+label {
+    Font-Size: 18px;
+    Display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+input textarea{
+    width: 100%;
+    display: block;
+    margin: 5px 0px 20px 0px;
+    font-size: 16px;
+    padding: 15px;
+    border: 1px solid #cccc;
+}
+
+
+textarea {
+    width: 100%;
+    display: block;
+    margin: 5px 0px, 20px, 0px;
+    font-size: 16px;
+    padding: 15px;
+    border: 1px solid #cccc;
+    height: 300px;
+}
+
+button {
+    display: block;
+    width: 120px;
+    float: left;
+    background-color: #4aaaa5; 
+    color: white; 
+    padding: 10px;
+    margin: 15px 0px 25px; 0px;
+    font-size: 16px;
+}
+
 .wrapper {
     width: 960px;
     margin: 0 auto;
@@ -97,6 +138,19 @@ p {
     float:left;
     margin: 0px 15px 15px 0;
     border: 1px solid #777777;
+}
+
+portfolio-item {
+    position: relative;
+    background-color: rgba(0,0,0, .5);
+    margin-bottom: 20px;
+    width: 45%;
+    float: left;
+
+}
+
+.portfolio-item:nth-of-type(even) {
+    float: right;
 }
 
 .clearfix {
@@ -116,7 +170,7 @@ p {
     font-size: 24px;
     padding: 15px 0;
     margin-bottom: 20px;
-border-bottom: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
 }
 
 footer {
@@ -126,4 +180,41 @@ footer {
     text-align: center;
     margin-bottom: 30px;
     padding: 40px; 
+}
+
+#port1 {
+    background: url(../images/portfolio01.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#port2 {
+    background: url(../images/portfolio02.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#port2 {
+    background: url(../images/portfolio03.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#port3 {
+    background: url(../images/portfolio04.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#port4 {
+    background: url(../images/portfolio05.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#port5 {
+    background: url(../images/portfolio06.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
