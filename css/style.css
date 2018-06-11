@@ -140,12 +140,12 @@ button {
     border: 1px solid #777777;
 }
 
-portfolio-item {
+.portfolio-item {
     position: relative;
-    background-color: rgba(0,0,0, .5);
     margin-bottom: 20px;
     width: 45%;
     float: left;
+    height: 250px;
 
 }
 
@@ -153,6 +153,52 @@ portfolio-item {
     float: right;
 }
 
+.portfolio-item h4 {
+    background: #4aaaa5;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0px;
+    position: absolute;
+    bottom: 15px;
+}
+#port1 {
+    background: url(../images/portfolio01.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#port2 {
+    background: url(../images/portfolio02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#port3 {
+    background: url(../images/portfolio03.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#port4 {
+    background: url(../images/portfolio04.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#port5 {
+    background: url(../images/portfolio05.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#port6 {
+    background: url(../images/portfolio06.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ 
 .clearfix {
     display: block;
     clear: both;
@@ -182,39 +228,3 @@ footer {
     padding: 40px; 
 }
 
-#port1 {
-    background: url(../images/portfolio01.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-
-}
-
-#port2 {
-    background: url(../images/portfolio02.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-#port2 {
-    background: url(../images/portfolio03.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-#port3 {
-    background: url(../images/portfolio04.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-#port4 {
-    background: url(../images/portfolio05.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-#port5 {
-    background: url(../images/portfolio06.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
